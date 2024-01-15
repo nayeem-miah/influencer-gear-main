@@ -182,6 +182,9 @@ font-weight: 700;
     .header{
         flex-direction: column;
     }
+    nav{
+        display: none;
+    }
     .container{
         flex-direction: column-reverse;
         padding: 20px;
@@ -222,5 +225,20 @@ element.style {
     width:143%;
 }
     
+    
+}
+/* medium device */
+@media screen and(min-width:576px;) and(max-width:960;) {
+    
+
+    .brand-img {
+    
+    gap: 20px;
+    padding: 20px 10px;
+    }
+    .footer{
+        /* width: 147%; */
+    }
+
     
 }
